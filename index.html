@@ -1,30 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind css</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="bg-black">
-  <nav class="flex items-center-safe justify-center-safe gap-12 mt-4">
-    <img src="https://www.apple.com/ac/globalfooter/8/en_IN/assets/ac-footer/breadcrumbs/apple/icon_large.svg" class="invert" alt="">
-    <h3 class="text-sm text-white">Mac</h3>
-    <h3 class="text-sm text-white">Store</h3>
-    <h3 class="text-sm text-white">ipad</h3>
-    <h3 class="text-sm text-white">iphones</h3>
-    <h3 class="text-sm text-white">Watch</h3>
-    <h3 class="text-sm text-white">AirPods</h3>
-    <h3 class="text-sm text-white">TV & Home</h3>
-    <h3 class="text-sm text-white">Entertainment</h3>
-    <i class="ri-search-line text-white"></i>
-    <i class="ri-shopping-bag-fill text-white"></i>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-black">
+    <nav class="flex items-center-safe justify-center-safe gap-12 mt-4">
+      <img
+        src="https://www.apple.com/ac/globalfooter/8/en_IN/assets/ac-footer/breadcrumbs/apple/icon_large.svg"
+        class="invert"
+        alt=""
+      />
+      <h3 class="text-sm text-white">Mac</h3>
+      <h3 class="text-sm text-white">Store</h3>
+      <h3 class="text-sm text-white">ipad</h3>
+      <h3 class="text-sm text-white">iphones</h3>
+      <h3 class="text-sm text-white">Watch</h3>
+      <h3 class="text-sm text-white">AirPods</h3>
+      <h3 class="text-sm text-white">TV & Home</h3>
+      <h3 class="text-sm text-white">Entertainment</h3>
+      <i class="ri-search-line text-white"></i>
+      <i class="ri-shopping-bag-fill text-white"></i>
+    </nav>
+    <div class="hero flex items-center justify-center h-full">
+      <img
+        src="https://www.apple.com/v/iphone-17-pro/a/images/overview/welcome/hero__bdntboqignj6_xlarge.jpg"
+        class="h-156 mt-23"
+        alt=""
+      />
+      <button>Buy Now
 
-  </nav>
-  <div class="hero flex items-center justify-center max-h-screen">
-    <img src="https://www.apple.com/v/iphone-17-pro/a/images/overview/welcome/hero__bdntboqignj6_xlarge.jpg" class="h-180 mt-10" alt="">
-  </div>
-  <div class="page2 max-h-screen w-screen bg-gray-200"></div>
-</body>
+      </button>
+    </div>
+    <div class="page2 bg-gray-200 text-3xl/loose text-center flex  justify-center flex-col gap-20">
+         <h3 class="font-bold mt-15 text-gray-800"> Power in Every Detail <br> Built to perform beyond expectations.</h3>
+
+         <div class="card-wrapper flex items-center justify-around">
+          <div class="card1">
+            <i class="ri-cpu-line  text-gray-800"></i>
+            <h5 class="text-xl font-medium  text-gray-800" >A19 Pro Chip</h5>
+          </div>
+          <div class="card2">
+          <i class="ri-camera-3-line  text-gray-800"></i>
+          <h5 class="text-xl font-medium  text-gray-800" >Pro Camera</h5>
+    </div>
+     <div class="card3">
+         <i class="ri-smartphone-line  text-gray-800"></i>
+          <h5 class="text-xl font-medium  text-gray-800" >Titanium Body</h5>
+    </div>
+            <div class="card4">
+          <i class="ri-battery-charge-fill  text-gray-800"></i>
+          <h5 class="text-xl font-medium  text-gray-800" >All Day Battery</h5> 
+    </div>
+          </div>
+         </div>
+     <div class="page3 bg-black flex items-center-safe justify-around gap-x-2 h-100 w-screen">
+      <div class="imgoverflow overflow-hidden h-150">
+        <img src="https://www.pngmart.com/files/24/Apple-iPhone-17-Pro-Max-PNG.png" alt="" class="h-300 mt-20">
+      </div>
+    
+    <h1 class="text-3xl text-gray-200 font-medium">Engineered for Speed</h1>
+     </div>
+   
+  </body>
 </html>
